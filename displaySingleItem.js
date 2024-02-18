@@ -136,7 +136,8 @@ const displayProductCategoryLists = (category) => {
 
       //   const textNode = document.createTextNode(title);
       //   liElem.appendChild(textNode);
-      aElem.href = `${location.origin}/weekTwelve/dayTwi/displaySingleItem.html?productId=${id}`;
+
+      aElem.href = `${location.origin}/micheal_product_project/displaySingleItem.html?productId=${id}`;
       aElem.textContent = title;
       liElem.appendChild(aElem);
       ulElem.appendChild(liElem);

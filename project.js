@@ -141,5 +141,5 @@ document.addEventListener("DOMContentLoaded", getProducts);
 
 const displaySingleProduct = (productId) => {
   const location = window.location;
-  location.href = `${location.origin}/displaySingleItem.html?productId=${productId}`;
+  location.href = `${location.origin}/micheal_product_project/displaySingleItem.html?productId=${productId}`;
 };
